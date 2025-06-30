@@ -10,7 +10,7 @@ export default function StructuredData() {
       price: "0",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
-      priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split("T")[0],
+      priceValidUntil: `${new Date().getFullYear() + 1}-12-31`,
     },
     description:
       "Enterprise-grade AI platform with LLM conversations, customizable agents, secure knowledge base, and MCP server support.",
