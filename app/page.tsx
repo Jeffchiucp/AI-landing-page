@@ -5,11 +5,14 @@ import Testimonials from "@/components/testimonials"
 import UseCases from "@/components/use-cases"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import TypingPromptInput from "@/components/typing-prompt-input"
-import FramerSpotlight from "@/components/framer-spotlight"
 import CssGridBackground from "@/components/css-grid-background"
 import FeaturesSection from "@/components/features-section"
 import StructuredData from "@/components/structured-data"
+import dynamic from 'next/dynamic'
+
+// Dynamically import components that cause hydration mismatch
+const TypingPromptInput = dynamic(() => import('@/components/typing-prompt-input'), { ssr: false })
+const FramerSpotlight = dynamic(() => import('@/components/framer-spotlight'), { ssr: false })
 
 export default function Home() {
   return (
