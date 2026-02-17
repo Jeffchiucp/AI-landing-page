@@ -29,7 +29,7 @@ A modern AI SaaS landing page built with [Next.js](https://nextjs.org) and [Tail
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org) 18+ installed
+- [Node.js](https://nodejs.org) 22+ installed
 - [npm](https://www.npmjs.com), [yarn](https://yarnpkg.com), or [pnpm](https://pnpm.io)
 
 ### Installation
