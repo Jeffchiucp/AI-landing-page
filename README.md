@@ -10,4 +10,3 @@ A modern AI SaaS landing page built with [v0.dev](https://v0.dev) and deployed o
 This project is automatically synced with [v0.dev](https://v0.dev). Changes made in the v0 editor are pushed to this repository and deployed via Vercel.
 
 - **Live site:** [vercel.com/jeff-chius-projects/v0-ai-saa-s-landing-page](https://vercel.com/jeff-chius-projects/v0-ai-saa-s-landing-page)
-- **v0 project:** [v0.dev/chat/projects/SRVueY4lSTM](https://v0.dev/chat/projects/SRVueY4lSTM)
